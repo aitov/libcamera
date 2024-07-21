@@ -279,6 +279,10 @@ const CameraSensorProperties *CameraSensorProperties::get(const std::string &sen
 				{ controls::draft::TestPatternModeColorBars, 1 },
 			},
 		} },
+		{ "mvcam", {
+			.unitCellSize = { 1550, 1550 },
+			.testPatternModes = {},
+		} },
 	};
 
 	const auto it = sensorProps.find(sensor);
